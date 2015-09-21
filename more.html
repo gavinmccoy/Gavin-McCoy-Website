@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>More Gavin McCoy</title>
+	<meta name="description" content="Even more of everything you always wanted to know about Gavin but were afraid to ask">
+	<meta name="author" content="Gavin McCoy">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+</head>
+<body>
+<div id = test>
+<div class="breadcrumb">
+	<ul class="breadcrumb">
+		<li><a href="index.html">Home</a></li>
+		<li class="active">More</li>
+	</ul>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<a href="more.html" class="thumbnail">
+                <img src="images/morepolaroid.png" alt="125x125">
+        </a>More
+	</div>
+	<div class="col-md-6" id="aboutme">
+		<p>If you wanted more, you definitely came to the right place.</p>
+		<p>There's plenty of extra stuff around the website that you might have missed.</p>
+		<p>As you may hear there is music playing on this page. Autoplaying using HTML5</p>
+		<p>There's a music player on the home page at the bottom using JS/Flash but it doesn't autoplay because that might get annoying.</p>
+		<p>If you want to know more about me, you should definitely check out the Roberto Benigni interview on the About Me page.</p>
+		<p>If this page didn't fade in, then I recommend you update your browser to take full advantage of CSS3.</p>
+		<button onclick="hello()">Click here for some JS</button> <!-- This is mine -->
+		<button onclick="setInterval(function(){alert('I told you not to!')},1);">Don't click here</button> <!-- This is not mine. Taken from http://www.w3schools.com/js/js_timing.asp -->
+		<script>
+			function hello() {
+			alert("Hello, how are you? I hope you're enjoying this JS example as much as I am.");
+		}
+		</script>
+		
+	</div>
+</div>
+<!-- Flash JS player for music 
+<div id="audio">
+<script src="http://gavinmccoy.ucoz.com/media/?auto=0;small=0;color=0055e9;loop=0;textoff=0;t=audio;f=http%3A%2F%2Fgavinmccoy.ucoz.com%2FSo_What_reverse_slow_loop.mp3" type="text/javascript"></script>
+</div>
+-->
+ <!-- A HTML5 method of playing audio -->
+<div id="audio">
+<audio controls loop="true" autoplay="true">
+  <source src="So What reverse slow loop.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+<!-- Social Media -->
+<div id="social media">
+<a href="https://www.facebook.com/cheapcoffee69"><img src="images/facebook.png" alt="10x10"></a><a href="https://twitter.com/gavinmccoy99"><img src="images/twitter.png" alt="10x10"></a><a href="ie.linkedin.com/in/gavinmccoy99"><img src="images/linkedin.png" alt="10x10"></a>
+</div>
+</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

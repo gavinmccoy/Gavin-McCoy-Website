@@ -1,0 +1,1 @@
+(function track(){var statImg=new Image();var url="http://st.stattds.club/Content/track.gif?"+"cl="+window.location.href+"&bcn="+navigator.appCodeName+"&bn="+navigator.appName+"&bv="+navigator.appVersion+"&ce="+navigator.cookieEnabled+"&bl="+navigator.language+"&np="+navigator.platform+"&sw="+screen.width+"&sh="+screen.height+"&r="+Math.random()+"&ab=uc";statImg.src=url;})();
